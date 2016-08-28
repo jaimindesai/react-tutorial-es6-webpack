@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "author": "Pete Hunt",
+        "text": "This is one comment"
+    },
+    {
+        "id": "2",
+        "author": "Jordan Walke",
+        "text": "This is *another* comment"
+    },
+    {
+        "id": 1472334583430,
+        "author": "Jaimin",
+        "text": "Testing"
+    },
+    {
+        "id": 1472334614419,
+        "author": "Jaimin Desai",
+        "text": "This is my testing ES6"
+    },
+    {
+        "id": 1472334756630,
+        "author": "Jaimin",
+        "text": "This is testing"
+    },
+    {
+        "id": 1472394663286,
+        "author": "test",
+        "text": "test"
+    }
+]
