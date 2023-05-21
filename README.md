@@ -1,12 +1,41 @@
 # react-tutorail-es6-webpack
-The OMW PE Information web service response needs to convert XML to JSON as a requirement. After analyzing the technical aspect, I discovered a solution that involves using JSON_OBJECT to read XML and dynamically generate JSON, eliminating the need for writing queries to generate JSON. We have successfully completed the proof of concept (POC) and are now in the process of implementing the same logic in OMWS PE Info.
-
-I assisted Vineetha in setting up the NPM package libraries on her computer. She encountered several challenges and struggled with them for a duration of two days. During that time, I provided guidance, support, and troubleshooting assistance to help her overcome the difficulties and successfully configure the required NPM package libraries on her machine.
-
-I help Vineetha in setting up the NPM package libraries on her computer. She struggled  with these problems for two days.
-
-As part of the CPQ integration process, we have a requirement to connect with the CPQ web service in order to transmit the Order status information after the Order has been processed. To fulfill this requirement, I am currently conducting a thorough analysis of the necessary steps and considerations involved. Additionally, I am actively working on developing a proof of concept (POC) to demonstrate the feasibility and effectiveness of accessing the CPQ web service from DEVO2 using PLSQL.
-
-The purpose of this endeavor is to establish a reliable and efficient means of communication between the two systems. By leveraging PLSQL, we aim to streamline the integration process and ensure smooth transmission of Order status updates from DEVO2 to the CPQ web service. This initiative will ultimately enhance the overall integration capabilities and enable seamless coordination between the systems involved.
-
-
+PE Code,Revenue Region,PE Name,Customer #,Customer Name,Agreement #,Product,Total PAV,Status,Locked by Quote,Agreement Name
+0010-10-LJJ,    100,    Launch and Learn EduCare,    1349683,304 Cambridge DC LLC,- ,ADP Payroll Services,"8,794.00",ACTIVE,"9077176   [DESAI, JAIMIN] ",-
+0010-10-L11,    100,    A & A Search Staffing LLC,    1275302,A & A Search Staffing LLC,- ,ADP Payroll Services,"2,706.00",TERMINATED,,-
+0010-10-LCX,    100,    A & A Search Staffing LLC,    1275302,A & A Search Staffing LLC,- ,ADP Payroll Services,"10,900.00",ACTIVE,"9077480   [DESAI, JAIMIN] ",-
+0010-10-LED,    100,"    Adcole Space, LLC",    277070,ADCOLE CORP,- ,ADP Payroll Services,"16,371.08",TERMINATED,,-
+0010-10-LA9,    100,    ADLER COHEN HARVEY,    327608,ADLER COHEN HARVEY,- ,ADP Payroll Services,"10,235.00",ACTIVE,"9078591   [DESAI, JAIMIN] ",-
+0010-10-LQP,    100,    Advanced Visual Systems I,    271549,ADVANCED VISUAL SYSTEMS,- ,ADP Payroll Services,"4,008.00",ACTIVE,"9078590   [DESAI, JAIMIN] ",-
+0010-10-LHL,    100,    AGAMATRIX INC,    60969,AGAMATRIX INC,- ,ADP Payroll Services,"7,818.00",ACTIVE,"9080807   [DESAI, JAIMIN] ",-
+0010-10-LVB,    310,    AGERO ADMINISTRATIVE,    37911,AGERO ADMINISTRATIVE,503142 ,ADP Payroll Services,640,TERMINATED,,AGERO ADMINISTRATIVE 503142
+0010-10-LQK,    100,    ALOHA FOUNDATION INC,    272948,ALOHA FOUNDATION INC,- ,ADP Payroll Services,"12,899.00",ACTIVE,"9081065   [DESAI, JAIMIN] ",-
+0010-10-L3R,    165,    Kidney Center of Wesley C,    887518,AMERICAN RENAL MANAGEMENT,- ,ADP Payroll Services,515.92,TERMINATED,,-
+0010-10-LHA,    165,    Oil City Dialysis Center,    887518,AMERICAN RENAL MANAGEMENT,- ,ADP Payroll Services,"1,132.00",TERMINATED,,-
+0010-10-LRV,    165,    American Renal Associates,    887518,AMERICAN RENAL MANAGEMENT,- ,ADP Payroll Services,"1,140.00",TERMINATED,,-
+0010-10-LU2,    165,    NORTHEAST PHIL. DIALYSIS,    887518,AMERICAN RENAL MANAGEMENT,- ,ADP Payroll Services,904,TERMINATED,,-
+0010-10-LWK,    165,    LEOMINSTER DIALYSIS,    887518,AMERICAN RENAL MANAGEMENT,- ,ADP Payroll Services,463.92,TERMINATED,,-
+0010-10-LBC,    165,    LAKE STATES YEAST LLC,    267748,AMERICAN YEAST SALES,- ,ADP Payroll Services,"5,126.00",ACTIVE,"9079723   [DESAI, JAIMIN] ",-
+0010-10-LBL,    165,    AYC CORP.,    267748,AMERICAN YEAST SALES,- ,ADP Payroll Services,"9,073.00",TERMINATED,,-
+0010-10-L7T,    100,"    AMEX, INC.",    266595,"AMEX, INC.",- ,ADP Payroll Services,"18,576.00",TERMINATED,,-
+0010-10-LYT,    100,    APC PAPER,    270922,APC PAPER,- ,ADP Payroll Services,"9,844.00",TERMINATED,,-
+0010-10-LCA,    100,    ARC Technologies,    268426,"ARC TECHNOLOGIES, INC",- ,ADP Payroll Services,"14,282.00",TERMINATED,,-
+0010-10-LJ3,    100,    AUTOMOBILE INS BUREAU,    276477,AUTOMOBILE INS BUREAU,- ,ADP Payroll Services,"6,358.00",TERMINATED,,-
+0010-10-L9G,    165,    San Antonio Medical Drive,    2203155,American Renal Associates,- ,ADP Payroll Services,493,TERMINATED,,-
+0010-10-LA7,    165,    San Antonio New Braunfels,    2203155,American Renal Associates,- ,ADP Payroll Services,219,TERMINATED,,-
+0010-10-LVJ,    100,    BALD HILL BUILDERS,    1109287,BALD HILL BUILDERS,- ,ADP Payroll Services,"8,966.00",ACTIVE,9081049   [SGUDURU] ,-
+0010-10-LGA,    100,    BARTON GILMAN LLP,    271470,BARTON GILMAN LLP,- ,ADP Payroll Services,"22,815.00",ACTIVE,,-
+0010-10-LR2,    165,    BELMONT MANOR NURSING,    56729,BELMONT MANOR NURSING,- ,ADP Payroll Services,"29,894.00",ACTIVE,,-
+0010-10-LXT,    100,    BENTLEY MGMT GROUP,    261251,BENTLEY MGMT GROUP,- ,ADP Payroll Services,"7,931.00",ACTIVE,"9080750   [DESAI, JAIMIN] ",-
+0010-10-LQ8,    100,    BIDDEFORD SAVINGS,    267521,BIDDEFORD SAVINGS,- ,ADP Payroll Services,"2,870.00",TERMINATED,,-
+0010-10-LTV,    165,    BOLTON GLOBAL CAPITAL INC,    269931,BOLTON GLOBAL CAPITAL INC,- ,ADP Payroll Services,"10,440.00",ACTIVE,,-
+0010-10-LJB,    165,    BOSTON BRUINS,    276170,BOSTON BRUINS,- ,ADP Payroll Services,"9,718.00",ACTIVE,,-
+0010-10-LG6,    100,    BOSTON OFFICE,    273746,BOSTON OFFICE,- ,ADP Payroll Services,"3,719.00",ACTIVE,,-
+0010-10-L3J,    100,    BOSTON OUT-PATIENT,    262051,BOSTON OUT-PATIENT,- ,ADP Payroll Services,"9,868.00",ACTIVE,,-
+0010-10-LDS,    165,    BOSTON VOLVO VILLAGE,    267137,BOSTON VOLVO VILLAGE,- ,ADP Payroll Services,"9,815.80",ACTIVE,,-
+0010-10-LLC,    165,    VILLAGE EURO MOTORS,    267137,BOSTON VOLVO VILLAGE,- ,ADP Payroll Services,"5,092.00",ACTIVE,,-
+0010-10-LQS,    100,    Biofrontera,    1257914,Biofrontera Inc,- ,ADP Payroll Services,"13,748.00",TERMINATED,,-
+0010-10-LHN,    165,    Braintree Street Realty,    1785307,Braintree Street Realty,- ,ADP Payroll Services,"4,287.00",ACTIVE,,-
+0010-10-L9D,    100,    CADI CO INC,    267905,CADI CO INC,- ,ADP Payroll Services,"21,518.00",ACTIVE,,-
+0010-10-LYC,    100,    CAMBRIA CONSULTING SSI,    268679,CAMBRIA CONSULTING,- ,ADP Payroll Services,"10,608.00",TERMINATED,,-
+0010-10-LL5,    100,    CANADIAN FISH EXPORTERS,    274800,CANADIAN FISH EXPORTERS,- ,ADP Payroll Services,"6,840.00",ACTIVE,,-
+0010-10-L9H,    165,    SERVICE MAINTENANCE CO,    271273,CARABETTA MANAGEMENT CO,- ,ADP Payroll Services,"11,774.00",ACTIVE,,-
