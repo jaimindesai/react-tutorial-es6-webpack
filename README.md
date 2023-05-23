@@ -1,4 +1,2 @@
 # react-tutorail-es6-webpack
-I created a new JIRA ticket, and it was approved by Jim. Please install the new certificate, which I kept in the share directory.
-
-Here is SQL script which you can verify 
+The following is a new JIRA ticket that has been approved by Jim. Kindly proceed with installing the new certificate, which I have stored in the shared directory. Additionally, here is an SQL script for you to use in order to verify the changes.
