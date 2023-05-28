@@ -1,5 +1,5 @@
 # react-tutorail-es6-webpack
-We are facing an issue with accessing the external web service CPQ from DEVO2 using PLSQL. I worked with DBA to install the certificate, which was provided by the CPQ team. But we are still facing an invalid certificate issue. We have been coordinating with the network, CPQ, and DBA teams to resolve this issue.
+We are currently encountering difficulties accessing the external web service CPQ from DEVO2 using PLSQL. Collaboratively, I collaborated with the DBA to successfully install the certificate provided by the CPQ team. However, despite our efforts, we continue to face an issue with an invalid certificate. Our team has been actively coordinating with the network, CPQ, and DBA teams to effectively address and resolve this matter.
 
 Jim Malone requested some statistics about how many orders have come from Retirement Service so far this fiscal year. I have prepared queries and provided statistics for orders from RS during this fiscal year.
 
