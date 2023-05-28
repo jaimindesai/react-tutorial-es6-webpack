@@ -5,3 +5,8 @@ Jim Malone recently made a request for statistical data regarding the number of 
 
 We have completed the new PE Info web service, which converts XML to JSON. We are currently doing unit testing and code reviews. In OMWS, we have a Processing Sales Order web service that consumes XML files, but most of the integration partners want to use JSON instead of XML. We are doing POC for converting JSON to XML, so there is no need to change business logic for loading data in different tables.
 
+Our team has successfully finalized the development of the new PE Info web service, which serves the purpose of converting XML data into JSON format. At present, we are actively engaged in conducting meticulous unit testing and thorough code reviews to ensure the reliability and quality of the web service.
+
+Within our existing Order Management Web Service (OMWS), we currently utilize a Processing Sales Order web service that primarily operates by consuming XML files. However, we have observed a prevailing preference among the majority of our integration partners, who express a strong inclination towards using JSON as their preferred data format instead of XML.
+
+To address this demand, we have undertaken a Proof of Concept (POC) initiative to explore the conversion of JSON data into XML. By successfully executing this POC, we will be able to cater to our integration partners' requirements without the need to modify the underlying business logic responsible for loading data into various tables. This approach allows for seamless integration and ensures compatibility with the desired JSON format while maintaining consistency in data handling and storage.
